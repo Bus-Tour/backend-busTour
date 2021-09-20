@@ -1,17 +1,16 @@
 {
     "busData": [
         {
-            "busNumber": 1,
+            "busNumber": "1",
             "busDriverName": "osama",
             "area": "Amman",
             "licencePlateNo": "30-65488",
             "driverPhoneNumber": "0744489994",
             "email": "driveremail.gmail.com",
             "capacity": "20"
-         
         },
         {
-            "busNumber": 1,
+            "busNumber": "1",
             "busDriverName": "ammer",
             "area": "dabooq",
             "licencePlateNo": "30-65488",
@@ -20,7 +19,7 @@
             "capacity": "20"
         },
         {
-            "busNumber": 2,
+            "busNumber": "2",
             "busDriverName": "karam",
             "area": "sewleh",
             "licencePlateNo": "30-65488",
@@ -29,7 +28,7 @@
             "capacity": "25"
         },
         {
-            "busNumber": 3,
+            "busNumber": "3",
             "busDriverName": "mohammed",
             "area": "westAmman",
             "licencePlateNo": "30-65488",
@@ -38,7 +37,7 @@
             "capacity": "30"
         },
         {
-            "busNumber": 4,
+            "busNumber": "4",
             "busDriverName": "omar",
             "area": "jbeha",
             "licencePlateNo": "30-65488",
@@ -47,7 +46,7 @@
             "capacity": "18"
         },
         {
-            "busNumber": 5,
+            "busNumber": "5",
             "busDriverName": "kareem",
             "area": "salt",
             "licencePlateNo": "30-65488",
@@ -56,7 +55,7 @@
             "capacity": "15"
         },
         {
-            "busNumber": 6,
+            "busNumber": "6",
             "busDriverName": "mahmood",
             "area": "zai",
             "licencePlateNo": "30-65488",
