@@ -1,5 +1,5 @@
 {
-  "name": "backend-busTour",
+  "name": "backend-bustour",
   "version": "1.0.0",
   "description": "Bus Tour is an interactive platform for students to deliver by buses and tours, connecting parents and schools represented as the admissions of buses movement and drivers and bus assistants. And to be sure that the students safely arrived home on the watch of their parents and the admission of buses in schools.",
   "main": "server.js",
