@@ -1,6 +1,11 @@
 'use strict';
 const userModel = require('../models/user.model');
 
+const getUserByEmail = (request, response) => {
+  userModel.find({ email: request.query.email }, (error, userData) => {
+    response.json(userData);
+  });
+};
 
 const getUser = (request, response) => {
 
@@ -54,5 +59,6 @@ module.exports = {
     getUser,
     createUser,
   deleteUser,
-updateUser
+updateUser,
+getUserByEmail
 }
