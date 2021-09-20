@@ -1,13 +1,10 @@
 'use strict';
 const studentModel = require('../models/students.model');
 
-
 const getParentsInterFace = (request, response) => {
-
-    studentModel.StudentsData.find((error, students) => {
-    response.json(students)
+  studentModel.find({ email: request.query.email }, (error, studentsData) => {
+    response.json(studentsData);
   });
-
 };
 
   module.exports = {
